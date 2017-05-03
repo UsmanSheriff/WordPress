@@ -60,8 +60,8 @@ define('NONCE_SALT',       'put your unique phrase here');
  */ 
 # define('WP_HOME','http://35.187.155.235');
 # define('WP_SITEURL','http://35.187.155.235');
-define('WP_HOME','http://'. $_SERVER['SERVER_NAME']);
-define('WP_SITEURL','http://'. $_SERVER['SERVER_NAME']);
+define('WP_HOME','https://'. $_SERVER['SERVER_NAME']);
+define('WP_SITEURL','https://'. $_SERVER['SERVER_NAME']);
 /**#@-*/
 
 /**
