@@ -1,4 +1,4 @@
--#!/bin/sh      
+#!/bin/sh      
 ssh -tt usman_sheriff@myapache <<EOF        
  cd /var/www/sheriff1966.com/public_html/
  git pull       
