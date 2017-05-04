@@ -1,5 +1,5 @@
 -#!/bin/sh      
-ssh usman_sheriff@myapache <<EOF        
+ssh -tt usman_sheriff@myapache <<EOF        
  cd /var/www/sheriff1966.com/public_html/
  git pull       
  exit       
