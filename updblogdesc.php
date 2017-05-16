@@ -11,7 +11,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "UPDATE wp_options SET option_value='My another WordPress' WHERE option_id=4";
+$sql = "UPDATE wp_options SET option_value='My own WordPress' WHERE option_id=4";
 
 if (mysqli_query($conn, $sql)) {
     echo "Record updated successfully";
